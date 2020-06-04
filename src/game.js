@@ -73,7 +73,7 @@ function create () {
   //  Enable physics for any object that is created in this group
   diamonds.enableBody = true
 
-  //  Create 12 diamonds evenly spaced apart
+  //  Create 100 diamonds evenly spaced apart
   for (var i = 0; i < 12; i++) {
     const diamond = diamonds.create(i * 70, 0, 'diamond')
 
