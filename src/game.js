@@ -117,7 +117,7 @@ function update () {
     player.body.velocity.y = -400
   }
   // Show an alert modal when score reaches 120
-  if (score === 120) {
+  if (score === 100) {
     alert('You win!')
     score = 0
   }
@@ -128,6 +128,6 @@ function collectDiamond (player, diamond) {
   diamond.kill()
 
   //  And update the score
-  score += 10
+  score += 1
   scoreText.text = 'Score: ' + score
 }
