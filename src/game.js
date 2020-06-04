@@ -19,7 +19,7 @@ function preload () {
   // Load & Define our game assets
   game.load.image('sky', './assets/sky.png')
   game.load.image('ground', './assets/platform.png')
-  game.load.image('diamond', './assets/diamond.png')
+  game.load.image('diamond', './https://i.dlpng.com/static/png/6466523_preview.png')
   game.load.spritesheet('woof', './assets/woof.png', 32, 32)
 }
 
